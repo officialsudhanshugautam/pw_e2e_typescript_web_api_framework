@@ -44,6 +44,8 @@ export default defineConfig({
     baseURL: process.env.BASE_URL,
     headless: !process.env.CI ? false : true,
     trace: 'on-first-retry',
+    // screenshot: 'on',
+    // video: 'on'
   },
 
   /* Configure projects for major browsers */
