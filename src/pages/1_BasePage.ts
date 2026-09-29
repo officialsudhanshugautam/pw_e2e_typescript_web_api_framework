@@ -8,8 +8,8 @@ export class BasePage {
     //locators
     //common locators accross all pages:
     protected readonly logo: Locator;
-    protected readonly searchBox: Locator;
-    protected readonly searchIcon: Locator;
+    protected readonly searchBoxx: Locator;
+    protected readonly searchIconn: Locator;
     protected readonly footerLinks: Locator;
     protected readonly currency: Locator;
     protected readonly cartButton: Locator;
@@ -19,8 +19,8 @@ export class BasePage {
 
         this.page = page;
         this.logo = page.getByRole('img', { name: 'naveenopencart' });
-        this.searchBox = page.getByRole('textbox', { name: 'Search' });
-        this.searchIcon = page.locator('div#search button');
+        this.searchBoxx = page.getByRole('textbox', { name: 'Search' });
+        this.searchIconn = page.locator('div#search button');
         this.currency = page.locator('#form-currency');
         this.cartButton = page.locator('#cart button');
         this.footerLinks = page.locator('footer a');
@@ -35,7 +35,7 @@ export class BasePage {
     }
 
     async isSearchBoxVisible(): Promise<boolean> {
-        return await this.searchBox.isVisible();
+        return await this.searchBoxx.isVisible();
     }
 
     async isCurrencyVisible(): Promise<boolean> {
