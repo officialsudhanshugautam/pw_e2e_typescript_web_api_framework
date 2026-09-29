@@ -25,3 +25,28 @@
 
 //9. git push origin main
 // code transfer to cloud repo
+
+// add --> commit --> push
+
+//Projects:
+//1. Javascript practise --> repo URL
+//2. Typescript practise --> repo URL
+//3. Playwright core session practise --> repo URL
+//4. Playwright web api end to end framework --> repo URL
+
+//Git
+//Scenarios: 
+//w1: new member joining the project
+//repo url will be shared
+//clone the project in your local/laptop --> import the project in your IDE/ VSC/ Eclipse/ IntelliJ
+//Code review
+//KT
+//framework overview
+//run tsc: npx playwright test --> nodejs, pw installed
+//report
+
+//-----------------
+//User story --> automation task --> automate feature --> feature branch
+//fix --> bug branch
+//add --> commit --> push the code to the feature branch --> PR review process --> Approved --> feature branch will be merged to the main branch
+//
