@@ -10,14 +10,30 @@ node_modules/
 /reporting-labs/
 /allure-report/
 /allure-results/
+reporting-labs.history.json
 
 # env files (confidentials):
 config/.env.*
+!config/.env.example
 
 # build
 dist/
 
+# auth
+src/data/auth.json
+
 #OS files
 .DS_Store
+Thumb.db
 
-reporting-labs.history.json
+# IDE
+.vscode/
+.idea/
+
+# logs
+*.log
+npm-debug.log*
+
+# misc
+*.tgz
+
