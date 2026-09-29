@@ -18,3 +18,10 @@
 
 //6. git add .
 //move the code copy to the stage/ index area
+
+//7. git status
+
+//8. git commit -m "message: adding framework code"
+
+//9. git push origin main
+// code transfer to cloud repo
