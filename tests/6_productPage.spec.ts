@@ -63,5 +63,3 @@ test('Footer exists on Login Page', async ({ basePage }) => {
     expect(await basePage.getPageFootersCount()).toBe(16);
 });
 
-
-
