@@ -28,6 +28,10 @@
 
 // add --> commit --> push
 
+//10. git merge --> merging local feature branch to newly local main branch | so first update main branch by checkout than come back to local branch than
+//run below command merge
+// git merge origin main
+
 //Projects:
 //1. Javascript practise --> repo URL
 //2. Typescript practise --> repo URL
