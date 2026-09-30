@@ -107,21 +107,21 @@ test(`login to app with invalid credentials with JSON Data - ${row.username} - $
 
 
 //common features test:
-test('APP logo exists on Login Page from Base Page', async ({ basePage }) => {
+test('@smoke APP logo exists on Login Page from Base Page', async ({ basePage }) => {
 
     expect(await basePage.isLogoVisible()).toBeTruthy();
 });
 
-test('Search Box exist on Login Page', async ({ basePage }) => {
+test('@smoke Search Box exist on Login Page', async ({ basePage }) => {
 
     expect(await basePage.isSearchBoxVisible()).toBeTruthy();
 });
-test('Cart exist on Login Page', async ({ basePage }) => {
+test('@smoke Cart exist on Login Page', async ({ basePage }) => {
 
     expect(await basePage.isCartButtonVisible()).toBeTruthy();
 });
 
-test('Footer exists on Login Page', async ({ basePage }) => {
+test('@smoke Footer exists on Login Page', async ({ basePage }) => {
 
     expect(await basePage.getPageFootersCount()).toBe(16);
 });

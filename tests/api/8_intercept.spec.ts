@@ -4,7 +4,7 @@
 
 import { test, expect } from '@playwright/test';
 
-test('intercept and log requests', async ({ page }) => {
+test('@smoke intercept and log requests', async ({ page }) => {
 
 
     //routing listener
@@ -22,7 +22,7 @@ test('intercept and log requests', async ({ page }) => {
 //intercept with mocking:
 //mocking: fake data/response:
 
-test('Mock Search Page with fake JSON', async ({ page }) => {
+test('@smoke Mock Search Page with fake JSON', async ({ page }) => {
 
     let fakeProduct = [
         { name: 'Fake Macbook Pro', price: '$599' },
@@ -44,7 +44,7 @@ test('Mock Search Page with fake JSON', async ({ page }) => {
 
 });
 
-test('Mock Search Page with fake HTML', async ({ page }) => {
+test('@smoke Mock Search Page with fake HTML', async ({ page }) => {
 
     await page.route('**/index.php?route=product/search&search=macbook', async (route) => {
         await route.fulfill({

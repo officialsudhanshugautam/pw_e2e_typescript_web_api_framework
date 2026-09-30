@@ -15,7 +15,7 @@ test.beforeAll('API Health Check', async ({ request }) => {
 });
 
 test.describe.serial('running e2e tests for Restful Booker APIs Test', () => {
-    test('GET API - Booking - GetBookingIds', async ({ request }) => {
+    test('@regression GET API - Booking - GetBookingIds', async ({ request }) => {
 
         let getResponse = await request.get('https://restful-booker.herokuapp.com/booking', {
 
@@ -37,7 +37,7 @@ test.describe.serial('running e2e tests for Restful Booker APIs Test', () => {
 
     });
 
-    test('GET API - Booking - GetBooking', async ({ request }) => {
+    test('@regression GET API - Booking - GetBooking', async ({ request }) => {
 
         let getResponse = await request.get(`https://restful-booker.herokuapp.com/booking/${firstBookingID}`);
 
@@ -53,7 +53,7 @@ test.describe.serial('running e2e tests for Restful Booker APIs Test', () => {
 
     });
 
-    test('POST API - Booking - CreateBooking', async ({ request }) => {
+    test('@regression POST API - Booking - CreateBooking', async ({ request }) => {
 
         let createBooking = {
             "firstname": "Sudhanshu",
@@ -83,7 +83,7 @@ test.describe.serial('running e2e tests for Restful Booker APIs Test', () => {
 
     });
 
-    test('PUT API - Booking - UpdateBooking', async ({ request }) => {
+    test('@regression PUT API - Booking - UpdateBooking', async ({ request }) => {
 
         //For Creating Token
         let postResponse = await request.post('https://restful-booker.herokuapp.com/auth', {
@@ -130,7 +130,7 @@ test.describe.serial('running e2e tests for Restful Booker APIs Test', () => {
 
     });
 
-    test('PATCH API - Booking - PartialUpdateBooking', async ({ request }) => {
+    test('@regression PATCH API - Booking - PartialUpdateBooking', async ({ request }) => {
 
         let partialBooking = {
             "firstname": "Sudhanshu James",
@@ -154,7 +154,7 @@ test.describe.serial('running e2e tests for Restful Booker APIs Test', () => {
 
     });
 
-    test('DELETE API - Booking - DeleteBooking', async ({ request }) => {
+    test('@regression DELETE API - Booking - DeleteBooking', async ({ request }) => {
 
         let deleteResponse = await request.delete(`https://restful-booker.herokuapp.com/booking/${createdBookingID}`, {
             headers: { Cookie: `token=${tokenID}` },
@@ -167,7 +167,7 @@ test.describe.serial('running e2e tests for Restful Booker APIs Test', () => {
 
     });
 
-    test('GET API - Verification Deleted or Not', async ({ request }) => {
+    test('@regression GET API - Verification Deleted or Not', async ({ request }) => {
 
         let getResponse = await request.get(`https://restful-booker.herokuapp.com/booking/${createdBookingID}`);
 
