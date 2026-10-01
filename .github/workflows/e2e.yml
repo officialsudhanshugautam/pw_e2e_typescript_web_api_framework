@@ -85,7 +85,7 @@ jobs:
       - name: Checkout QA repo
         uses: actions/checkout@v4
         with:
-          repository: officialsudhanshugautam/pw_e2e_web_api_framework
+          repository: jglick/simple-maven-project-with-tests
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
