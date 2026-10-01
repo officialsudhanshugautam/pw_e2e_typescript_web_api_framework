@@ -38,5 +38,5 @@ npm-debug.log*
 *.tgz
 
 # required files to be ignored at repo
-tests/10_Practise_Git Commands.spec.ts
+# tests/10_Practise_Git Commands.spec.ts
 tests/11_Practise_CICD Pipeline.spec.ts
