@@ -1,0 +1,9 @@
+200
+OK
+{
+  firstname: 'Jim',
+  lastname: 'Ericsson',
+  totalprice: 154,
+  depositpaid: true,
+  bookingdates: { checkin: '2015-03-01', checkout: '2017-03-04' }
+}
