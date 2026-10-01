@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","309","@regression PUT API - Booking - UpdateBooking","chromium","2026-10-01","passed","2026-10-01","running e2e tests for Restful Booker APIs Test","api/10_booking.restful-booker.api.spec.ts","",""
+"","231","@regression GET API - Verification Deleted or Not","chromium","2026-10-01","passed","2026-10-01","running e2e tests for Restful Booker APIs Test","api/10_booking.restful-booker.api.spec.ts","",""
+"","244","@regression DELETE API - Booking - DeleteBooking","chromium","2026-10-01","passed","2026-10-01","running e2e tests for Restful Booker APIs Test","api/10_booking.restful-booker.api.spec.ts","",""
+"","248","@regression GET API - Booking - GetBooking","chromium","2026-10-01","passed","2026-10-01","running e2e tests for Restful Booker APIs Test","api/10_booking.restful-booker.api.spec.ts","",""
+"","242","@regression PATCH API - Booking - PartialUpdateBooking","chromium","2026-10-01","passed","2026-10-01","running e2e tests for Restful Booker APIs Test","api/10_booking.restful-booker.api.spec.ts","",""
+"","256","@regression POST API - Booking - CreateBooking","chromium","2026-10-01","passed","2026-10-01","running e2e tests for Restful Booker APIs Test","api/10_booking.restful-booker.api.spec.ts","",""
+"","348","@regression GET API - Booking - GetBookingIds","chromium","2026-10-01","passed","2026-10-01","running e2e tests for Restful Booker APIs Test","api/10_booking.restful-booker.api.spec.ts","",""

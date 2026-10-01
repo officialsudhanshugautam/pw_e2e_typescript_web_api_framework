@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3078","@smoke APP logo exists on Login Page from Base Page","chromium","2026-10-01","passed","2026-10-01","","3_loginPageFixture.spec.ts","",""
+"","1909","@smoke Cart exist on Login Page","chromium","2026-10-01","passed","2026-10-01","","3_loginPageFixture.spec.ts","",""
+"","154","@smoke Mock Search Page with fake HTML","chromium","2026-10-01","passed","2026-10-01","","api/8_intercept.spec.ts","",""
+"","107","@smoke Mock Search Page with fake JSON","chromium","2026-10-01","passed","2026-10-01","","api/8_intercept.spec.ts","",""
+"","1856","@smoke Footer exists on Login Page","chromium","2026-10-01","passed","2026-10-01","","3_loginPageFixture.spec.ts","",""
+"","2037","@smoke Search Box exist on Login Page","chromium","2026-10-01","passed","2026-10-01","","3_loginPageFixture.spec.ts","",""
+"","2367","@smoke intercept and log requests","chromium","2026-10-01","passed","2026-10-01","","api/8_intercept.spec.ts","",""
