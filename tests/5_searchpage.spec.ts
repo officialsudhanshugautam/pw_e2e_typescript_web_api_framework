@@ -9,7 +9,7 @@ test.beforeEach(async ({ loginPage }) => {
 
 });
 
-test('verify search', async ({ homePage, searchResultsPage}) => {
+test('@sanity verify search', async ({ homePage, searchResultsPage}) => {
 
     await homePage.doSearch('macbook');
     let resultCount = await searchResultsPage.getProductSearchResultsCount();
@@ -18,7 +18,7 @@ test('verify search', async ({ homePage, searchResultsPage}) => {
 
 });
 
-test('verify user is able to land on the product page', async ({ homePage, searchResultsPage, page }) => {
+test('@sanity verify user is able to land on the product page', async ({ homePage, searchResultsPage, page }) => {
 
     await homePage.doSearch('macbook');
     await searchResultsPage.selectProduct('MacBook Pro');

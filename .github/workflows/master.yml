@@ -1,9 +1,9 @@
 # ═══════════════════════════════════════════════════════════════
-# FILE: .github/workflows/master-pipeline.yml
-# REPO: naveenanimation20/OpenCartWebAPIAutomationFramework
+# FILE: .github/workflows/master.yml
+# REPO: officialsudhanshugautam/pw_e2e_web_api_framework
 # DEV REPO: jglick/simple-maven-project-with-tests
 # ═══════════════════════════════════════════════════════════════
-# "Run up to environment" — the dropdown controls how far the
+# "Run up to environment" — the drop down controls how far the
 # pipeline goes:
 #   dev   → Build → DEV only
 #   QA    → Build → DEV → QA
@@ -188,7 +188,7 @@ jobs:
       - name: Checkout QA repo
         uses: actions/checkout@v4
         with:
-          repository: naveenanimation20/OpenCartWebAPIAutomationFramework
+          repository: officialsudhanshugautam/pw_e2e_web_api_framework
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -291,7 +291,7 @@ jobs:
       - name: Checkout QA repo
         uses: actions/checkout@v4
         with:
-          repository: naveenanimation20/OpenCartWebAPIAutomationFramework
+          repository: officialsudhanshugautam/pw_e2e_web_api_framework
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -329,7 +329,7 @@ jobs:
           echo "========================================="
           echo "  Running SANITY @smoke on STAGE"
           echo "========================================="
-          npx playwright test --project=chromium --grep @smoke
+          npx playwright test --project=chromium --grep @sanity
         env:
           ENV: stage
           BASE_URL: ${{ secrets.BASE_URL }}
@@ -395,7 +395,7 @@ jobs:
       - name: Checkout QA repo
         uses: actions/checkout@v4
         with:
-          repository: naveenanimation20/OpenCartWebAPIAutomationFramework
+          repository: officialsudhanshugautam/pw_e2e_web_api_framework
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
