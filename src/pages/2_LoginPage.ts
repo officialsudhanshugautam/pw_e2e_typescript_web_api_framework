@@ -3,8 +3,7 @@ import { BasePage } from "./1_BasePage";
 
 export class LoginPage extends BasePage {
 
-    //1. private locators:
-    
+    //1. private locators:   
     private readonly emailId: Locator;
     private readonly password: Locator;
     private readonly loginBtn: Locator;
@@ -12,7 +11,6 @@ export class LoginPage extends BasePage {
     private readonly loginErrorMessage: Locator
 
     //2. constructor of the page class: init the locators:
-
     constructor(page: Page) {
         super(page);
 
@@ -25,7 +23,6 @@ export class LoginPage extends BasePage {
     }
 
     //3. public page actions(methods) / behaviour : Encapsulation
-
     async goToLoginPage(): Promise<void> {
         await this.page.goto('opencart/index.php?route=account/login');
     }

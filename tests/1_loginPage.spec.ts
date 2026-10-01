@@ -8,20 +8,20 @@ import { log, meta } from 'reporting-labs';
 let loginPage: LoginPage;
 let homePage: HomePage;
 
-test.beforeEach(async ({ page }) => {
-    loginPage = new LoginPage(page);
-    await loginPage.goToLoginPage();
-    homePage = new HomePage(page);
-});
+// test.beforeEach(async ({ page }) => {
+//     loginPage = new LoginPage(page);
+//     await loginPage.goToLoginPage();
+//     homePage = new HomePage(page);
+// });
 
 //AAA - Arrange Act Action
-test('login page title test', async ({  }) => {
+test('login page title test', async ({ page }) => {
 
     //reporting labs
     meta({priority: 'P2', severity: 'Minor', owner: 'Sudhanshu Gautam', story: 'PW-Story-101', epic: 'PW-Epic-101', feature: '101', issue: 'PW-Bug-101' });
 
-    // loginPage = new LoginPage(page);
-    // await loginPage.goToLoginPage();
+    loginPage = new LoginPage(page);
+    await loginPage.goToLoginPage();
 
     //allure
     // await allure.suite("Login Tests");
@@ -41,24 +41,25 @@ test('login page title test', async ({  }) => {
 // });
 });
 
-test('forgot pwd link exist test', async ({  }) => {
+test('forgot pwd link exist test', async ({ page }) => {
 
     //reporting labs
     meta({priority: 'P1', severity: 'Major', owner: 'Priyanka Yadav', story: 'PW-Story-102', epic: 'PW-Epic-102', feature: '102', issue: 'PW-Bug-102' });
 
-    // loginPage = new LoginPage(page);
-    // await loginPage.goToLoginPage();
+    loginPage = new LoginPage(page);
+    await loginPage.goToLoginPage();
     expect(await loginPage.isForgettenPwdLinkExist()).toBeTruthy();
     
 });
 
-test('user is able to login to app', async ({  }) => {
+test('user is able to login to app', async ({ page }) => {
 
     //reporting labs
     meta({priority: 'P3', severity: 'Critical', owner: 'Hinaya Gautam', story: 'PW-Story-103', epic: 'PW-Epic-103', feature: '103', issue: 'PW-Bug-103' });
 
-    // loginPage = new LoginPage(page);
-    // await loginPage.goToLoginPage();
+    loginPage = new LoginPage(page);
+    homePage = new HomePage(page);
+    await loginPage.goToLoginPage();
     await loginPage.doLogin('priyanka@test.com', 'Priyanka@123');
     expect(await homePage.isLogoutLinkExist()).toBeTruthy();
 });
