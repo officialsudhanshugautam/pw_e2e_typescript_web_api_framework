@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","151","@smoke Mock Search Page with fake HTML","chromium","2026-10-01","passed","2026-10-01","","api/8_intercept.spec.ts","",""
+"","122","@smoke Mock Search Page with fake JSON","chromium","2026-10-01","passed","2026-10-01","","api/8_intercept.spec.ts","",""
+"","2857","@smoke Search Box exist on Login Page","chromium","2026-10-01","passed","2026-10-01","","3_loginPageFixture.spec.ts","",""
+"","3310","@smoke intercept and log requests","chromium","2026-10-01","passed","2026-10-01","","api/8_intercept.spec.ts","",""
