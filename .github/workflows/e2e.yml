@@ -395,7 +395,7 @@ jobs:
       - name: Checkout QA repo
         uses: actions/checkout@v4
         with:
-          repository: officialsudhanshugautam/pw_e2e_web_api_frameworkgit
+          repository: officialsudhanshugautam/pw_e2e_web_api_framework
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
