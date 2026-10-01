@@ -1,6 +1,6 @@
 # ═══════════════════════════════════════════════════════════════
-# FILE: .github/workflows/master-pipeline.yml
-# REPO: naveenanimation20/OpenCartWebAPIAutomationFramework
+# FILE: .github/workflows/e2e.yml
+# REPO: officialsudhanshugautam/pw_e2e_web_api_framework
 # DEV REPO: jglick/simple-maven-project-with-tests
 # ═══════════════════════════════════════════════════════════════
 # "Run up to environment" — the dropdown controls how far the
