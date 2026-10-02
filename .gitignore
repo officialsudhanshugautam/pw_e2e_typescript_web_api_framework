@@ -38,4 +38,4 @@ npm-debug.log*
 *.tgz
 
 # below required files to be ignored at repo
-./practising.reference.doc.txt
+practising.reference.doc.txt
