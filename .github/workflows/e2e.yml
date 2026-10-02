@@ -65,7 +65,7 @@ jobs:
           retention-days: 30
 
   # ═════════════════════════════════════════════════════
-  # STEP 2: DEPLOY DEV + SMOKE TESTS
+  # STEP 2: DEPLOY DEV + SANITY TESTS
   #   ➜ Always runs (every option includes DEV)
   # ═════════════════════════════════════════════════════
   deploy-dev:
@@ -77,7 +77,7 @@ jobs:
         run: echo "Deployed to DEV ✅"
 
   sanity-dev:
-    name: DEV - Smoke Tests
+    name: DEV - Sanity Tests
     needs: deploy-dev
     runs-on: ubuntu-latest
     environment: dev
@@ -123,7 +123,7 @@ jobs:
           echo "========================================="
           echo "  Running SANITY @smoke on DEV"
           echo "========================================="
-          npx playwright test --project=chromium --grep @smoke
+          npx playwright test --project=chromium --grep "@smoke|@sanity"
         env:
           ENV: dev
           BASE_URL: ${{ secrets.BASE_URL }}
@@ -179,7 +179,7 @@ jobs:
         run: echo "Deployed to QA ✅"
 
   regression-qa:
-    name: QA - Sanity & Regression Tests
+    name: QA - Regression Tests
     needs: deploy-qa
     if: contains(fromJSON('["QA","stage","Prod"]'), github.event.inputs.environment)
     runs-on: ubuntu-latest
