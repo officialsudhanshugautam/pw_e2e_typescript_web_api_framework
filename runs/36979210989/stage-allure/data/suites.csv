@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4703","@sanity verify user is able to land on the product page","chromium","2026-10-02","passed","2026-10-02","","5_searchpage.spec.ts","",""
+"","3452","@sanity logout link exist test","chromium","2026-10-02","passed","2026-10-02","","2_homePage.spec.ts","",""
+"","3452","@sanity home page title test","chromium","2026-10-02","passed","2026-10-02","","2_homePage.spec.ts","",""
+"","3982","@sanity verify search","chromium","2026-10-02","passed","2026-10-02","","5_searchpage.spec.ts","",""
+"","3408","@sanity home page headers exist test","chromium","2026-10-02","passed","2026-10-02","","2_homePage.spec.ts","",""
