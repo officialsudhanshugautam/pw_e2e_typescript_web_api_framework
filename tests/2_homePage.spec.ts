@@ -14,18 +14,18 @@ test.beforeEach(async ({ page }) => {
 
     homePage = new HomePage(page);
 })
-test('home page title test', async ({ }) => {
+test('@sanity home page title test', async ({ }) => {
 
     let pageTitle = await homePage.getHomePageTitle();
     console.log('home page title: ', pageTitle);
     expect(pageTitle).toBe('My Account');
 });
 
-test('logout link exist test', async ({ }) => {
+test('@sanity logout link exist test', async ({ }) => {
     expect(await homePage.isLogoutLinkExist()).toBeTruthy();
 });
 
-test('home page headers exist test', async ({}) => {
+test('@sanity home page headers exist test', async ({}) => {
     let allHeaders: string[] = await homePage.getHomePageHeaders();
     console.log('home page headers: ', allHeaders);
     expect.soft(allHeaders).toHaveLength(4);

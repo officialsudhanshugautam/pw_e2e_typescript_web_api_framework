@@ -65,7 +65,7 @@ jobs:
           retention-days: 30
 
   # ═════════════════════════════════════════════════════
-  # STEP 2: DEPLOY DEV + SANITY TESTS
+  # STEP 2: DEPLOY DEV + SMOKE TESTS
   #   ➜ Always runs (every option includes DEV)
   # ═════════════════════════════════════════════════════
   deploy-dev:
@@ -77,7 +77,7 @@ jobs:
         run: echo "Deployed to DEV ✅"
 
   sanity-dev:
-    name: DEV - Sanity Tests
+    name: DEV - Smoke Tests
     needs: deploy-dev
     runs-on: ubuntu-latest
     environment: dev
@@ -179,7 +179,7 @@ jobs:
         run: echo "Deployed to QA ✅"
 
   regression-qa:
-    name: QA - Regression Tests
+    name: QA - Sanity & Regression Tests
     needs: deploy-qa
     if: contains(fromJSON('["QA","stage","Prod"]'), github.event.inputs.environment)
     runs-on: ubuntu-latest
@@ -226,7 +226,7 @@ jobs:
           echo "========================================="
           echo "  Running REGRESSION (all tests) on QA"
           echo "========================================="
-          npx playwright test --project=chromium --grep @regression
+          npx playwright test --project=chromium --grep "@regression|@sanity"
         env:
           ENV: qa
           BASE_URL: ${{ secrets.BASE_URL }}
@@ -329,7 +329,7 @@ jobs:
           echo "========================================="
           echo "  Running SANITY @smoke on STAGE"
           echo "========================================="
-          npx playwright test --project=chromium --grep @smoke
+          npx playwright test --project=chromium --grep @sanity
         env:
           ENV: stage
           BASE_URL: ${{ secrets.BASE_URL }}
