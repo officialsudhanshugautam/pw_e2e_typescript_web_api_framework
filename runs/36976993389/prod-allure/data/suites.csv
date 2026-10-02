@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2519","@smoke forgot pwd link exist test","chromium","2026-10-02","passed","2026-10-02","","1_loginPage.spec.ts","",""
+"","3442","@smoke user is able to login to app","chromium","2026-10-02","passed","2026-10-02","","1_loginPage.spec.ts","",""
+"","2187","@smoke login page title test","chromium","2026-10-02","passed","2026-10-02","","1_loginPage.spec.ts","",""
+"","177","@smoke Mock Search Page with fake HTML","chromium","2026-10-02","passed","2026-10-02","","api/7_user.intercept.spec.ts","",""
+"","75","@smoke Mock Search Page with fake JSON","chromium","2026-10-02","passed","2026-10-02","","api/7_user.intercept.spec.ts","",""
+"","2935","@smoke intercept and log requests","chromium","2026-10-02","passed","2026-10-02","","api/7_user.intercept.spec.ts","",""
