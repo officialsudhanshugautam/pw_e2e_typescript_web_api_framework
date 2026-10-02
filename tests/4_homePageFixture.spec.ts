@@ -6,18 +6,18 @@ test.beforeEach(async ({ loginPage }) => {
     await loginPage.doLogin('priyanka@test.com', 'Priyanka@123');
 
 });
-test('home page title test', async ({ homePage }) => {
+test('@regression home page title test', async ({ homePage }) => {
 
     let pageTitle = await homePage.getHomePageTitle();
     console.log('home page title: ', pageTitle);
     expect(pageTitle).toBe('My Account');
 });
 
-test('logout link exist test', async ({ homePage }) => {
+test('@regression logout link exist test', async ({ homePage }) => {
     expect(await homePage.isLogoutLinkExist()).toBeTruthy();
 });
 
-test('home page headers exist test', async ({ homePage }) => {
+test('@regression home page headers exist test', async ({ homePage }) => {
     let allHeaders: string[] = await homePage.getHomePageHeaders();
     console.log('home page headers: ', allHeaders);
     expect.soft(allHeaders).toHaveLength(4);

@@ -112,7 +112,7 @@ test('APP logo exists on Login Page from Base Page', async ({ basePage }) => {
     expect(await basePage.isLogoVisible()).toBeTruthy();
 });
 
-test('@smoke Search Box exist on Login Page', async ({ basePage }) => {
+test('Search Box exist on Login Page', async ({ basePage }) => {
 
     expect(await basePage.isSearchBoxVisible()).toBeTruthy();
 });
