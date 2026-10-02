@@ -11,7 +11,7 @@ import type { ReportingLabsOptions } from 'reporting-labs';
 const config: ReportingLabsOptions = {
 
   // ── Look ─────────────────────────────────────────────────────────────────────
-  title: 'PW Cart – regression test suit',                       // shown in the header
+  title: 'PW SG Cart –  Web & API Automation Test Suite',                       // shown in the header
   logo: 'SG.png',                               // your logo next to the title: a file next to this config (embedded), or an https URL
   // palette: 'lab',                                  // 'lab' (blue, default) | 'ocean' | 'ember' | 'mono'; viewers can switch
   // accent: '#7C3AED',                               // your brand color instead of the palette accent
