@@ -12,6 +12,9 @@ node_modules/
 /allure-results/
 reporting-labs.history.json
 
+# file to be ignored
+practising.reference.txt
+
 # env files (confidentials):
 config/.env.*
 !config/.env.example
@@ -36,6 +39,3 @@ npm-debug.log*
 
 # misc
 *.tgz
-
-# below required files to be ignored at repo
-practising.reference.doc.txt
