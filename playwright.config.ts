@@ -43,7 +43,7 @@ export default defineConfig({
   use: {
     baseURL: process.env.BASE_URL,
     // headless: !process.env.CI ? false : true,
-    headless: true,
+    headless: false,
     trace: 'on-first-retry',
     // screenshot: 'on',
     // video: 'on'
