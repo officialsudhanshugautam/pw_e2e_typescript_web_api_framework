@@ -6,7 +6,7 @@ import reportingLabs from './reporting-labs.config';
 //npm install dotenv
 //ENV=qa npx playwright test or by default given below as or operator
 const ENV = process.env.ENV || "qa";
-console.log('Running tests on Environment: ', ENV);
+console.log('Running Tests Environment: ', ENV);
 configDotenv({ path: `config/.env.${ENV}` });
 
 export default defineConfig({
@@ -43,7 +43,7 @@ export default defineConfig({
   use: {
     baseURL: process.env.BASE_URL,
     // headless: !process.env.CI ? false : true,
-    headless: false,
+    headless: true,
     trace: 'on-first-retry',
     // screenshot: 'on',
     // video: 'on'

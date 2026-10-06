@@ -60,6 +60,6 @@ test('@smoke user is able to login to app', async ({ page }) => {
     loginPage = new LoginPage(page);
     homePage = new HomePage(page);
     await loginPage.goToLoginPage();
-    await loginPage.doLogin('priyanka@test.com', 'Priyanka@123');
+    await loginPage.doLogin(process.env.USERNAME, process.env.PASSWORD);
     expect(await homePage.isLogoutLinkExist()).toBeTruthy();
 });
