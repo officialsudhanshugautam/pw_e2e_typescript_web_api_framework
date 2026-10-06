@@ -2,7 +2,7 @@ import { test, expect, APIResponse } from "@playwright/test";
 
 //object
 let AUTH_TOKEN = {
-    Authorization: 'Bearer bc5104f9db0fa9d35d48813af15fe91ff06ca8682d3f40c5f2e264c321740063'
+    Authorization: `Bearer ${process.env.API_TOKEN}`
 };
 
 test('Get all users API Test', async ({ request }) => {

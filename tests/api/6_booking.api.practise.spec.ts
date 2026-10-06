@@ -5,8 +5,8 @@ let tokenID: string;
 test.beforeEach('generate the token', async ({ request }) => {
 
     let credentials = {
-        "username": "admin",
-        "password": "password123"
+        "username": `${process.env.RESTFUL_USERNAME}`,
+        "password": `${process.env.RESTFUL_PASSWORD}`
     }
 
     let authResponse = await request.post('https://restful-booker.herokuapp.com/auth', {

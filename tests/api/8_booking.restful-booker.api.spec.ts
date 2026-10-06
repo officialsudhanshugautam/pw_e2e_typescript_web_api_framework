@@ -88,8 +88,8 @@ test.describe.serial('running e2e tests for Restful Booker APIs Test', () => {
         //For Creating Token
         let postResponse = await request.post('https://restful-booker.herokuapp.com/auth', {
             data: {
-                username: "admin",
-                password: "password123"
+                username: `${process.env.RESTFUL_USERNAME}`,
+                password: `${process.env.RESTFUL_PASSWORD}`
             }
         })
 
