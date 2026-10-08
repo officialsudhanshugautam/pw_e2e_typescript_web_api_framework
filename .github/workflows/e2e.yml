@@ -134,6 +134,8 @@ jobs:
           OAUTH_CLIENT_ID: ${{ secrets.OAUTH_CLIENT_ID }}
           OAUTH_CLIENT_SECRET: ${{ secrets.OAUTH_CLIENT_SECRET }}
           GRANT_TYPE: ${{ secrets.GRANT_TYPE }}
+          RESTFUL_USERNAME: ${{ secrets.RESTFUL_USERNAME }}
+          RESTFUL_PASSWORD: ${{ secrets.RESTFUL_PASSWORD }}
 
       - name: Generate Allure Report
         if: always()
@@ -237,6 +239,8 @@ jobs:
           OAUTH_CLIENT_ID: ${{ secrets.OAUTH_CLIENT_ID }}
           OAUTH_CLIENT_SECRET: ${{ secrets.OAUTH_CLIENT_SECRET }}
           GRANT_TYPE: ${{ secrets.GRANT_TYPE }}
+          RESTFUL_USERNAME: ${{ secrets.RESTFUL_USERNAME }}
+          RESTFUL_PASSWORD: ${{ secrets.RESTFUL_PASSWORD }}
 
       - name: Generate Allure Report
         if: always()
@@ -340,6 +344,8 @@ jobs:
           OAUTH_CLIENT_ID: ${{ secrets.OAUTH_CLIENT_ID }}
           OAUTH_CLIENT_SECRET: ${{ secrets.OAUTH_CLIENT_SECRET }}
           GRANT_TYPE: ${{ secrets.GRANT_TYPE }}
+          RESTFUL_USERNAME: ${{ secrets.RESTFUL_USERNAME }}
+          RESTFUL_PASSWORD: ${{ secrets.RESTFUL_PASSWORD }}
 
       - name: Generate Allure Report
         if: always()
@@ -444,6 +450,8 @@ jobs:
           OAUTH_CLIENT_ID: ${{ secrets.OAUTH_CLIENT_ID }}
           OAUTH_CLIENT_SECRET: ${{ secrets.OAUTH_CLIENT_SECRET }}
           GRANT_TYPE: ${{ secrets.GRANT_TYPE }}
+          RESTFUL_USERNAME: ${{ secrets.RESTFUL_USERNAME }}
+          RESTFUL_PASSWORD: ${{ secrets.RESTFUL_PASSWORD }}
 
       - name: Generate Allure Report
         if: always()
