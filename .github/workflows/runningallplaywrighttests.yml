@@ -63,7 +63,7 @@ jobs:
           restore-keys: reporting-labs-history-${{ github.event.inputs.environment || 'QA' }}-
 
       - name: Run tests
-        run: npx playwright test --project=chromium --grep @regression
+        run: npx playwright test --project=chromium
         env:
           ENV: ${{ github.event.inputs.environment || 'QA' }}
           BASE_URL: ${{ secrets.BASE_URL }}
