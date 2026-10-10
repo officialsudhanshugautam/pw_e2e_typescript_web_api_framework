@@ -29,6 +29,14 @@ src/data/auth.json
 .DS_Store
 Thumb.db
 
+# Window file setup - PY
+._.DS_Store
+._tsconfig.json
+src/._.DS_Store
+src/testdata/._.DS_Store
+src/testdata/._opencarttestdata.xlsx
+tests/._.DS_Store
+
 # IDE
 .vscode/
 .idea/
