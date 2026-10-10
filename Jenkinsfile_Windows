@@ -114,6 +114,8 @@ pipeline {
                     withCredentials([
                         usernamePassword(credentialsId: 'dev-credentials',
                             usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD'),
+                        usernamePassword(credentialsId: 'restful-username-password',
+                            usernameVariable: 'RESTFUL_USERNAME', passwordVariable: 'RESTFUL_PASSWORD'),
                         string(credentialsId: 'api-token', variable: 'API_TOKEN'),
                         string(credentialsId: 'oauth-client-id', variable: 'OAUTH_CLIENT_ID'),
                         string(credentialsId: 'oauth-client-secret', variable: 'OAUTH_CLIENT_SECRET'),
@@ -187,8 +189,10 @@ pipeline {
                         if exist reporting-labs rmdir /s /q reporting-labs
                     '''
                     withCredentials([
-                        usernamePassword(credentialsId: 'qa-credentials',
+                        usernamePassword(credentialsId: 'dev-credentials',
                             usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD'),
+                        usernamePassword(credentialsId: 'restful-username-password',
+                            usernameVariable: 'RESTFUL_USERNAME', passwordVariable: 'RESTFUL_PASSWORD'),
                         string(credentialsId: 'api-token', variable: 'API_TOKEN'),
                         string(credentialsId: 'oauth-client-id', variable: 'OAUTH_CLIENT_ID'),
                         string(credentialsId: 'oauth-client-secret', variable: 'OAUTH_CLIENT_SECRET'),
@@ -262,8 +266,10 @@ pipeline {
                         if exist reporting-labs rmdir /s /q reporting-labs
                     '''
                     withCredentials([
-                        usernamePassword(credentialsId: 'stage-credentials',
+                        usernamePassword(credentialsId: 'dev-credentials',
                             usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD'),
+                        usernamePassword(credentialsId: 'restful-username-password',
+                            usernameVariable: 'RESTFUL_USERNAME', passwordVariable: 'RESTFUL_PASSWORD'),
                         string(credentialsId: 'api-token', variable: 'API_TOKEN'),
                         string(credentialsId: 'oauth-client-id', variable: 'OAUTH_CLIENT_ID'),
                         string(credentialsId: 'oauth-client-secret', variable: 'OAUTH_CLIENT_SECRET'),
@@ -345,8 +351,10 @@ pipeline {
                         if exist reporting-labs rmdir /s /q reporting-labs
                     '''
                     withCredentials([
-                        usernamePassword(credentialsId: 'prod-credentials',
+                        usernamePassword(credentialsId: 'dev-credentials',
                             usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD'),
+                        usernamePassword(credentialsId: 'restful-username-password',
+                            usernameVariable: 'RESTFUL_USERNAME', passwordVariable: 'RESTFUL_PASSWORD'),
                         string(credentialsId: 'api-token', variable: 'API_TOKEN'),
                         string(credentialsId: 'oauth-client-id', variable: 'OAUTH_CLIENT_ID'),
                         string(credentialsId: 'oauth-client-secret', variable: 'OAUTH_CLIENT_SECRET'),

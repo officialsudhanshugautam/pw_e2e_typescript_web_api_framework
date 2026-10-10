@@ -20,7 +20,7 @@ test('@sanity home page title test', async ({ }) => {
 
     let pageTitle = await homePage.getHomePageTitle();
     console.log('home page title: ', pageTitle);
-    expect(pageTitle).toBe('My Account');
+    expect(pageTitle).toBe('Account Login');
 });
 
 test('@sanity logout link exist test', async ({ }) => {

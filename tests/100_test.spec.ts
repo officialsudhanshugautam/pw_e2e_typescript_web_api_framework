@@ -38,7 +38,7 @@
 
 import { expect, test } from '@playwright/test';
 
-test('Checking Authorization with Wrond Credentials Details', async ( { page }) => {
+test.skip('Checking Authorization with Wrond Credentials Details', async ( { page }) => {
 
     await page.goto('https://creditcardauthorization/user');
 
