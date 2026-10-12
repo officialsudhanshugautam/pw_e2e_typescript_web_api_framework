@@ -12,6 +12,49 @@ node_modules/
 /allure-results/
 reporting-labs.history.json
 
+/all-blob-reports/
+/allure-shard-1/
+/allure-shard-2/
+/allure-shard-3/
+/allure-shard-4/
+/blob-shard-1/
+/blob-shard-2/
+/blob-shard-3/
+/blob-shard-4/
+/reports-shard-1/
+/reports-shard-2/
+/reports-shard-3/
+/reports-shard-4/
+/rl-shard-1/
+/rl-shard-2/
+/rl-shard-3/
+/rl-shard-4/
+/all-allure-results/
+/merged-allure-report/
+/reporting-labs-merged/
+
+# docker setup time
+/all-blob-reports/
+/allure-shard1/
+/allure-shard2/
+/allure-shard3/
+/allure-shard4/
+/blob-shard1/
+/blob-shard2/
+/blob-shard3/
+/blob-shard4/
+/reports-shard1/
+/reports-shard2/
+/reports-shard3/
+/reports-shard4/
+/rl-shard1/
+/rl-shard2/
+/rl-shard3/
+/rl-shard4/
+/all-allure-results/
+/merged-allure-report/
+
+
 # file to be ignored
 practising.reference.txt
 
