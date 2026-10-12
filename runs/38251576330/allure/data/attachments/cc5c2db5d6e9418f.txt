@@ -1,0 +1,10 @@
+{ token: '74d259d29c5253d' }
+Token:  74d259d29c5253d
+{
+  firstname: 'Sudhanshu',
+  lastname: 'Gautam',
+  totalprice: 321,
+  depositpaid: true,
+  bookingdates: { checkin: '2027-01-01', checkout: '2027-01-10' },
+  additionalneeds: 'Lunch'
+}

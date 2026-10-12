@@ -1,0 +1,72 @@
+[
+  {
+    id: 8663423,
+    name: 'SG',
+    email: 'pwautomation_1791809483811@sudhanshu.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8663421,
+    name: 'Sudhanshu Gautam',
+    email: 'pwautomation_1791809470038@sudhanshu.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8663420,
+    name: 'SG-Partial-Update',
+    email: 'pwautomation_1791809468771@sudhanshu.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8663417,
+    name: 'SG-Update',
+    email: 'pwautomation_1791809466977@sudhanshu.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8663418,
+    name: 'Sudhanshu',
+    email: 'pwautomation_1791809466935@sudhanshu.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8663392,
+    name: 'SG',
+    email: 'pwautomation_1791806886625@sudhanshu.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8663390,
+    name: 'Sudhanshu Gautam',
+    email: 'pwautomation_1791806817180@sudhanshu.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8663389,
+    name: 'SG-Partial-Update',
+    email: 'pwautomation_1791806812813@sudhanshu.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8663386,
+    name: 'SG-Update',
+    email: 'pwautomation_1791806805387@sudhanshu.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8663387,
+    name: 'Sudhanshu',
+    email: 'pwautomation_1791806805724@sudhanshu.com',
+    gender: 'male',
+    status: 'active'
+  }
+] 200

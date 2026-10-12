@@ -1,0 +1,3 @@
+Auth API Response:  { token: 'adcffdf0eaed869' }
+Token ID:  adcffdf0eaed869
+Booking ID:  771

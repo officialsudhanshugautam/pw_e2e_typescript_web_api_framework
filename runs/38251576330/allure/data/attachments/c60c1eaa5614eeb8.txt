@@ -1,0 +1,13 @@
+user credentials: priyanka@test.com - Priyanka@123
+search key:  macbook
+product name:  MacBook Pro
+Actual Product Details:  Map(8) {
+  'productHeader' => 'MacBook Pro',
+  'productimagescount' => 4,
+  'Brand' => 'Apple',
+  'Product Code' => 'Product 18',
+  'Reward Points' => '800',
+  'Availability' => 'Out Of Stock',
+  'Productprice' => '$2,000.00',
+  'ExTaxPrice' => '$2,000.00'
+}
