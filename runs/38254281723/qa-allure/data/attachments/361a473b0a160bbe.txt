@@ -1,0 +1,2 @@
+user credentials: priyanka@test.com - Priyanka@123
+home page headers:  [ 'My Account', 'My Orders', 'My Affiliate Account', 'Newsletter' ]
