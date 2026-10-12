@@ -1,0 +1,10 @@
+200
+OK
+{
+  firstname: 'Blass Editado',
+  lastname: 'Academy Editado',
+  totalprice: 125,
+  depositpaid: true,
+  bookingdates: { checkin: '2022-08-12', checkout: '2023-12-25' },
+  additionalneeds: 'PERU Editado'
+}

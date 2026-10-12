@@ -1,0 +1,22 @@
+{
+  id: 8663433,
+  name: 'Sudhanshu',
+  email: 'pwautomation_1791810227518@sudhanshu.com',
+  gender: 'male',
+  status: 'active'
+} 201
+{
+  id: 8663433,
+  name: 'Sudhanshu',
+  email: 'pwautomation_1791810227518@sudhanshu.com',
+  gender: 'male',
+  status: 'active'
+} 200
+200
+{
+  id: 8663433,
+  name: 'SG-Partial-Update',
+  email: 'pwautomation_1791810227518@sudhanshu.com',
+  gender: 'male',
+  status: 'inactive'
+} 200

@@ -1,0 +1,15 @@
+{
+  id: 8663434,
+  name: 'Sudhanshu Gautam',
+  email: 'pwautomation_1791810229125@sudhanshu.com',
+  gender: 'female',
+  status: 'active'
+} 201
+created user id:  8663434
+{
+  id: 8663434,
+  name: 'Sudhanshu Gautam',
+  email: 'pwautomation_1791810229125@sudhanshu.com',
+  gender: 'female',
+  status: 'active'
+} 200

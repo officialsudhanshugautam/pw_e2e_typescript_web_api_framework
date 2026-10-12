@@ -1,0 +1,3 @@
+Auth API Response:  { token: 'ebdba50c542d67e' }
+Token ID:  ebdba50c542d67e
+Booking ID:  1320

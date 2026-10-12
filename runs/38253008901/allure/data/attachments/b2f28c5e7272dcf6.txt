@@ -1,0 +1,16 @@
+{
+  id: 8663432,
+  name: 'Sudhanshu',
+  email: 'pwautomation_1791810226590@sudhanshu.com',
+  gender: 'male',
+  status: 'active'
+} 201
+{
+  id: 8663432,
+  name: 'Sudhanshu',
+  email: 'pwautomation_1791810226590@sudhanshu.com',
+  gender: 'male',
+  status: 'active'
+} 200
+204
+{ message: 'Resource not found' } 404
