@@ -85,7 +85,7 @@ jobs:
       - name: Checkout QA repo
         uses: actions/checkout@v4
         with:
-          repository: officialsudhanshugautam/pw_e2e_web_api_framework
+          repository: officialsudhanshugautam/pw_e2e_typescript_web_api_framework
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -190,7 +190,7 @@ jobs:
       - name: Checkout QA repo
         uses: actions/checkout@v4
         with:
-          repository: officialsudhanshugautam/pw_e2e_web_api_framework
+          repository: officialsudhanshugautam/pw_e2e_typescript_web_api_framework
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -295,7 +295,7 @@ jobs:
       - name: Checkout QA repo
         uses: actions/checkout@v4
         with:
-          repository: officialsudhanshugautam/pw_e2e_web_api_framework
+          repository: officialsudhanshugautam/pw_e2e_typescript_web_api_framework
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -401,7 +401,7 @@ jobs:
       - name: Checkout QA repo
         uses: actions/checkout@v4
         with:
-          repository: officialsudhanshugautam/pw_e2e_web_api_framework
+          repository: officialsudhanshugautam/pw_e2e_typescript_web_api_framework
 
       - name: Setup Node.js
         uses: actions/setup-node@v4

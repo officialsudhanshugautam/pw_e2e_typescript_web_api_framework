@@ -1,4 +1,4 @@
-name: Sharded Playwright Test
+name: Sharded Playwright Tests
 
 on:
   workflow_dispatch:
@@ -194,7 +194,7 @@ jobs:
       cancel-in-progress: false
     env:
       RUN_DIR: pages-deploy/runs/${{ github.run_id }}
-      REPORT_URL: https://officialsudhanshugautam.github.io/pw_e2e_web_api_framework/runs/${{ github.run_id }}
+      REPORT_URL: https://officialsudhanshugautam.github.io/pw_e2e_typescript_web_api_framework/runs/${{ github.run_id }}
     steps:
       - name: Download merged reports
         uses: actions/download-artifact@v4
