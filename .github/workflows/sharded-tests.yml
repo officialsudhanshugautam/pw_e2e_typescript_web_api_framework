@@ -1,4 +1,4 @@
-name: Sharded Playwright Tests
+name: Sharded Playwright Test
 
 on:
   workflow_dispatch:
